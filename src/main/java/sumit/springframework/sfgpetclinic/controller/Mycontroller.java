@@ -3,7 +3,7 @@ package sumit.springframework.sfgpetclinic.controller;
 import org.springframework.stereotype.Controller;
 
 @Controller
-public class Mycontroller {
+public class MyController {
 
 	public String sayHello()
 	{
