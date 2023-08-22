@@ -2,9 +2,10 @@ package sumit.springframework.sfgpetclinic.services;
 
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
+
 @Profile("EN")
-@Service("I18nService")
-public class I18nEnglishreetingService implements GreetingService {
+@Service("i18nService")
+public class I18nEnglishGreetingService implements GreetingService {
     @Override
     public String sayGreeting() {
         return "Hello World - EN";
