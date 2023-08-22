@@ -1,9 +1,10 @@
 package sumit.springframework.sfgpetclinic.controller;
 
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Controller;
 
 import sumit.springframework.sfgpetclinic.services.GreetingService;
-
+@Controller
 public class I18nController {
 	  private final GreetingService greetingService;
 
